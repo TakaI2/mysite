@@ -16,7 +16,7 @@ print nl2br($_POST["honbun"], false);
 <br>
 <input type="submit" value="確認" name="confirm">
 <input type="submit" value="戻る" name="back">
-<input type="hidden" name="onamae" value="<?=$_POST["onamae"]?>">
+<input type="hidden" name="user" value="<?=$_POST["onamae"]?>">
 <input type="hidden" name="honbun" value="<?=$_POST["honbun"]?>">
 <input type="hidden" name="user_id" value="<?=$_POST["user_id"]?>">
 </form>
